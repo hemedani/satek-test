@@ -1,0 +1,15 @@
+{
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "saleh",
+    "password": "6161",
+    "database": "satek",
+    "logging": true,
+    "entities": ["src/entity/*.ts"],
+    "migrations": ["src/migration/*.ts"],
+    "cli": {
+        "migrationsDir": "src/migration"
+    }
+}
